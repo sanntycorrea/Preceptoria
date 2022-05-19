@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "Preceptoria",
+    "slug": "Preceptoria",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
