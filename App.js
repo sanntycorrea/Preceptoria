@@ -1,21 +1,22 @@
-import { StatusBar } from 'expo-status-bar';
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
-
-export default function App() {
+import logo from './logo.svg';
+import './App.css';
+function App (props) {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <div className='App'>
+      <header className='App-header'>
+        <img src={logo} className='App-logo'alt='logo'></img>
+        <P> 
+          edit <code>src/App.js</code>
+        </P>
+        <a
+          className='App-link'
+          href='Prototipo de logo.png'
+          target='_blank'
+          rel='noopener noreferrer'
+          >
+            {props.saludo}
+        </a>
+      </header>
+    </div>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});

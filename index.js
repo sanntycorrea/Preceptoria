@@ -1,8 +1,12 @@
-import { registerRootComponent } from 'expo';
+import react from "react";
+import reactDom from "react-dom";
+import'./index.css';
+import App from'./App'
+reactDom.render(
+    <App saludo="holi" />,
+        <h1>
+            holaaa
+        </h1>,
+    document.getElementById('root')
 
-import App from './App';
-
-// registerRootComponent calls AppRegistry.registerComponent('main', () => App);
-// It also ensures that whether you load the app in Expo Go or in a native build,
-// the environment is set up appropriately
-registerRootComponent(App);
+);
