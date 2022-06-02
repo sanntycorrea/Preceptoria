@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import  './UI/login';
+import  login from '/Reacts/Preceptoria/src/Login';
 function App (props) {
   return (
     <div className='App'>
