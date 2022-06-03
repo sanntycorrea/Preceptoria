@@ -1,23 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
-import  login from '/Reacts/Preceptoria/src/Login';
-function App (props) {
+
+import react from 'react';
+import { StyleSheet, Text,view} from 'react-native';
+import { StatusBar } from 'expo-status-bar';
+import LoginForm from './src/components/LoginForm.js';
+
+export default function App () {
   return (
-    <div className='App'>
-      <header className='App-header'>
-        <img src={logo} className='App-logo'alt='logo'></img>
-        <P> 
-          edit <code>src/App.js</code>
-        </P>
-        <a
-          className='App-link'
-          href='Prototipo de logo.png'
-          target='_blank'
-          rel='noopener noreferrer'
-          >
-            {props.saludo}
-        </a>
-      </header>
-    </div>
+    <View style={styles.container}>
+      <Text> Holaaaaaa</Text>
+    <Text>jujuhbhbhvg</Text>
+    <StatusBar style="auto"/>
+    <LoginForm/> 
+    </View>
   );
 }
+
+
+const styles=StyleSheet.create({
+container: {
+  flex: 1,
+  backgroundClor:"#fff",
+  alignItems:"center",
+  justifyContent: "center",
+ },
+});
+
+
+
