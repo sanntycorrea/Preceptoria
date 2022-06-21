@@ -6,15 +6,9 @@ import LoginForm from './src/components/LoginForm.js';
 
 export default function App () {
   return (
-    <View style={styles.container}>
-      <Text> Holaaaaaa</Text>
-    <Text>jujuhbhbhvg</Text>
-    <StatusBar style="auto"/>
-    <LoginForm/> 
-    </View>
+    <><View style={styles.container} /><StatusBar style="auto" /><LoginForm /></>
   );
 }
-
 
 const styles=StyleSheet.create({
 container: {
