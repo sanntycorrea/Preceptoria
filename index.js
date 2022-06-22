@@ -1,8 +1,16 @@
-import react from "react";
-import reactDom from "react-dom";
-import'./index.css';
-import App from'./App'
-import LoginForm from "./src/UI/LoginFrom";
-reactDom.render(
-    <LoginForm/>
+
+import React from 'react';
+import ReactDOM from 'react-dom';
+import { ThemeProvider } from '@material-ui/core';
+import { theme } from './Theme';
+import App from './App';
+
+const rootElement = document.getElementById('root');
+ReactDOM.render(
+  <React.StrictMode>
+    <ThemeProvider theme={theme}>
+      <App />
+    </ThemeProvider>
+  </React.StrictMode>,
+  rootElement
 );
