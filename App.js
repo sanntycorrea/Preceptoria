@@ -10,7 +10,7 @@ export default function App () {
   return (
     <View style={styles.container}>
       <Text>hola</Text>
-      
+
       <LoginForm/>
     </View>
   );
@@ -24,6 +24,6 @@ container: {
   justifyContent: "center",
  },
 });
-
+ 
 
 

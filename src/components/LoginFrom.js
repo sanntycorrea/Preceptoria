@@ -14,13 +14,4 @@ export default function LoginForm(){
 
     
 }
-const styles = StyleSheet.create({
-    container: {
-        flex:1, 
-        brackgroundcolor: '#ffff',
-        alingitems: 'center',
-        justifyContent: 'center',
-
-    }
-
-});
+;
