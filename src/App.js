@@ -1,11 +1,11 @@
 import react from 'react';
 import { stylesheet, text,view} from 'react-native';
-import { view } from 'react-native-web';
+import { LoginForm} from 'react-native';
 
 export default function app () {
   return (
-    <view style={styles.container}>
-      <text>holas</text>
+    <view>
+       <LoginForm></LoginForm>
     </view>
   );
 }
