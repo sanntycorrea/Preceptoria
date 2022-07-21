@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Preceptoria",
-    "slug": "Preceptoria",
+    "name": "Practicas",
+    "slug": "Practicas",
     "version": "1.0.0",
     "assetBundlePatterns": [
       "**/*"

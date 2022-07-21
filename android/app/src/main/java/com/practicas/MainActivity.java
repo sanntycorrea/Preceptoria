@@ -1,4 +1,4 @@
-package com.preceptoria;
+package com.practicas;
 
 import android.os.Build;
 import android.os.Bundle;

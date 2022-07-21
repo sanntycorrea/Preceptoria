@@ -1,4 +1,4 @@
-package com.preceptoria.newarchitecture.modules;
+package com.practicas.newarchitecture.modules;
 
 import com.facebook.jni.HybridData;
 import com.facebook.react.ReactPackage;
@@ -41,7 +41,7 @@ public class MainApplicationTurboModuleManagerDelegate
     if (!sIsSoLibraryLoaded) {
       // If you change the name of your application .so file in the Android.mk file,
       // make sure you update the name here as well.
-      SoLoader.loadLibrary("preceptoria_appmodules");
+      SoLoader.loadLibrary("practicas_appmodules");
       sIsSoLibraryLoaded = true;
     }
   }
