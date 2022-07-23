@@ -9,7 +9,7 @@ export default function LoginForm(){
             <Button title="Aceptar" onPress={() => console.log("Enviar")}/>
             <Button title="Cancelar" onPress={() => console.log("Cancelar")}/>
         </View>
-
+asd
 
 )
 }
