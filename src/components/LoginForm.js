@@ -8,6 +8,7 @@ export default function LoginForm(){
             <TextInput placeholder="Password"/>
             <Button title="Aceptar" onPress={() => console.log("Enviar")}/>
             <Button title="Cancelar" onPress={() => console.log("Cancelar")}/>
+        
         </View>
 
 
