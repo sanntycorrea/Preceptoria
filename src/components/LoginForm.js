@@ -1,36 +1,27 @@
 import React from "react";
-import { SafeAreaView, StyleSheet, TextInput, Text } from "react-native";
+import { TextInput, Button, View, Text,} from "react-native"
 
-const UselessTextInput = () => {
-  const [text, onChangeText] = React.useState("Useless Text");
-  const [number, onChangeNumber] = React.useState(null);
+export default function LoginForm(){
+    return (
+        <View> 
+            <Text>Asistants</Text>
+            <Text></Text><Text></Text><Text></Text><Text></Text><Text></Text>
+            <Text>Iniciar sesion</Text>
+            <Text></Text><Text></Text>
+            <TextInput placeholder="Correo Electronico"/>
+            <Text></Text>
+            <TextInput placeholder="Contraseña"/>
+            <Text></Text><Text></Text><Text></Text>
+            <Text>Registrarse</Text><Text></Text>
+            <Text></Text><Text></Text>
+            <Button title="Registrarse con Google" onPress={() => console.log("Conectando con Google")}/>
+            <Text></Text>
+            <Button title="Registrarse con Facebook" onPress={() => console.log("Conectando con Facebook")}/>
 
-  return (
-    <SafeAreaView>
-        <Text>hola</Text>
-      <TextInput
-        style={styles.input}
-        onChangeText={onChangeText}
-        value={text}
-      />
-      <TextInput
-        style={styles.input}
-        onChangeText={onChangeNumber}
-        value={number}
-        placeholder="useless placeholder"
-        keyboardType="numeric"
-      />
-    </SafeAreaView>
-  );
-};
 
-const styles = StyleSheet.create({
-  input: {
-    height: 40,
-    margin: 12,
-    borderWidth: 1,
-    padding: 10,
-  },
-});
+        
 
-export default UselessTextInput;
+        
+        </View>
+)
+}
