@@ -1,28 +1,22 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, View } from 'react-native';
-import LoginForm from './src/components/LoginForm';
-import SplashScreen from './src/screens/SplashScreen';
-
+import { StyleSheet, Text, View } from 'react-native';
+import { SafeAreaProvider } from 'react-native-safe-area-context';
+import SplashScreen from './Components/SplashScreen';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <StatusBar style="auto" />
-      <LoginForm></LoginForm>
-      
-    </View>
+    <SafeAreaProvider>
+      <SplashScreen></SplashScreen>
+    </SafeAreaProvider>
   );
 }
 
-
 const styles = StyleSheet.create({
   container: {
-    display: 'flex',
-    backgroundColor: '#90D6EF',
+    flex: 1,
+    backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
-    
-    
   },
 });
