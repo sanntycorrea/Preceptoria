@@ -14,3 +14,21 @@ export default function LoginForm(){
 
 )
 }
+const estyles = StyleSheet.create({
+    Container:{
+        flex:1,
+        BackgroundColor:'#f5fcff',
+
+    },
+    input:{
+        height:40,
+        borderColor:'#ccc',
+        borderWidth:2,
+        marginBottom:20,
+
+    },
+    textArea:{
+        height:60,
+
+    }
+});
