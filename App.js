@@ -2,7 +2,7 @@ import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, View } from 'react-native';
 import LoginForm from './src/components/LoginForm';
-
+import SplashScreen from './src/screens/SplashScreen';
 
 
 export default function App() {
@@ -10,6 +10,7 @@ export default function App() {
     <View style={styles.container}>
       <StatusBar style="auto" />
       <LoginForm></LoginForm>
+      
     </View>
   );
 }
@@ -17,9 +18,11 @@ export default function App() {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
+    display: 'flex',
     backgroundColor: '#90D6EF',
     alignItems: 'center',
     justifyContent: 'center',
+    
+    
   },
 });
