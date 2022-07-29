@@ -14,10 +14,9 @@ export default function LoginForm(){
             <Text></Text><Text></Text><Text></Text>
             <Text>Registrarse</Text><Text></Text>
             <Text></Text><Text></Text>
-            <Button title="Cancelar" onPress={() => console.log("Cancelar")}/>
-            
+            <Button title="Registrarse con Google" onPress={() => console.log("Conectando con Google")}/>
             <Text></Text>
-            <Button title="Cancelar" onPress={() => console.log("Cancelar")}/>
+            <Button title="Registrarse con Facebook" onPress={() => console.log("Conectando con Facebook")}/>
 
 
 
