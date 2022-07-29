@@ -9,8 +9,8 @@ export default function App() {
   return (
     <View style={styles.container}>
       <StatusBar style="auto" />
-      <SplashScreen/>
-      
+      <LoginForm></LoginForm>
+     
     </View>
   );
 }
@@ -22,5 +22,6 @@ const styles = StyleSheet.create({
     backgroundColor: '#90D6EF',
     alignItems: 'center',
     justifyContent: 'center',
+    
   },
 });
